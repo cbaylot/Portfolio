@@ -1,0 +1,41 @@
+header {
+  background-color: #A4C2A5;
+  text-align: center;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+  background-color: #F1F2EB;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+header, h2, p, ol, ul {
+  font-family: monaco, monospace;
+  color: #4A4A48;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #4A4A48
+}
+
+footer > p {
+  color: #F1F2EB;
+}
+
+/* Link Colors */
+a:link { color: #566246; }
+a:visited { color: #2E5266 }
+a: hover { color: #A4C2A5; }
+a: active { color: #A14DA0 }
