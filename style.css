@@ -1,7 +1,7 @@
-header {
-  background-color: #A4C2A5;
-  text-align: center;
-  font-size: 30px;
+/* group of style elements consistent throughout the page */
+header, h2, p, ol, ul {
+  font-family: monaco, monospace;
+  color: #4A4A48;
 }
 
 body {
@@ -9,23 +9,31 @@ body {
   background-color: #F1F2EB;
 }
 
+/* header */
+header {
+  background-color: #A4C2A5;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* image */
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
+  height: 50%;
   border-radius: 50%;
 }
 
-header, h2, p, ol, ul {
-  font-family: monaco, monospace;
-  color: #4A4A48;
-}
-
+/* main */
 h2 {
   text-align: center;
 }
+p {
+  padding: 5px;
+}
 
+/* footer */
 footer {
   background-color: #4A4A48
 }
